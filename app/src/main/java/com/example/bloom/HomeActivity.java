@@ -23,6 +23,11 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        try {
+            this.getSupportActionBar().hide();
+        }
+        catch (NullPointerException e){}
+
         Intent i = getIntent();
         String active_user = "Hello, " + i.getStringExtra("username") + "!";
 
@@ -46,13 +51,8 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void handleExpenses(View v) {
-        Intent i = new Intent(this, ViewExpenseActivity.class);
+        Intent i = new Intent(this, ExpenseMonthly.class);
         startActivity(i);
     }
 
-    public void handleTemp(View v){
-        Intent i = new Intent(this, ManualTracker.class);
-        startActivity(i);
-
-    }
 }
