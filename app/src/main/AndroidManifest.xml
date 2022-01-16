@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bloom">
         <activity
+            android:name=".ExpenseMonthly"
+            android:exported="false" />
+        <activity
             android:name=".ViewExpenseActivity"
             android:exported="false" />
         <activity
