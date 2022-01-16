@@ -58,6 +58,11 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void handleTemp(View v){
+        Intent i = new Intent(this, ManualTracker.class);
+        startActivity(i);
+    }
+
     public void saveFile(Bitmap bitmap) {
         String timeStamp = new SimpleDateFormat("yyyy-MM-dd HHmmss").format(new Date());
         FileOutputStream fOut = null;
@@ -88,6 +93,5 @@ public class HomeActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

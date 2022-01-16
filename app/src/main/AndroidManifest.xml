@@ -12,6 +12,9 @@
         android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.Bloom">
         <activity
+            android:name=".ManualTracker"
+            android:exported="false" />
+        <activity
             android:name=".ViewExpenseActivity"
             android:exported="false" />
         <activity
