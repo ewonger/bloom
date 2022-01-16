@@ -15,6 +15,9 @@
             android:name=".ManualTracker"
             android:exported="false" />
         <activity
+            android:name=".ExpenseMonthly"
+            android:exported="false" />
+        <activity
             android:name=".ViewExpenseActivity"
             android:exported="false" />
         <activity
