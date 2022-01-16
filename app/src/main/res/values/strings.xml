@@ -2,9 +2,12 @@
     <string name="app_name">bloom</string>
     <string name="welcome_to_bloom">Welcome to bloom</string>
     <string name="login">Login</string>
-    <string name="your_username">your username...</string>
+    <string name="your_username">Username</string>
     <string name="track">Track</string>
     <string name="view_expenses">View Expenses</string>
     <string name="button">Button</string>
     <string name="open_camera">Open Camera</string>
+    <string name="Expenses">Expenses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

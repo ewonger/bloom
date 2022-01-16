@@ -25,4 +25,10 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
         startActivity(intent);
     }
+
+    public void handleExpenses(View v) {
+        Intent i = new Intent(this, ViewExpenseActivity.class);
+        startActivity(i);
+    }
+
 }
