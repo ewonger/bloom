@@ -5,4 +5,6 @@
     <string name="your_username">your username...</string>
     <string name="track">Track</string>
     <string name="view_expenses">View Expenses</string>
+    <string name="button">Button</string>
+    <string name="open_camera">Open Camera</string>
 </resources>
