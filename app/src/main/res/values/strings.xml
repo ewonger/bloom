@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Bloom</string>
+    <string name="welcome_to_bloom">Welcome to Bloom!</string>
+    <string name="login">Login</string>
+    <string name="your_username">your username...</string>
+    <string name="track">Track</string>
+    <string name="view_expenses">View Expenses</string>
 </resources>
