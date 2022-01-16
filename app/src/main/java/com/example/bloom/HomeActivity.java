@@ -36,7 +36,9 @@ public class HomeActivity extends AppCompatActivity {
         try {
             this.getSupportActionBar().hide();
         }
-        catch (NullPointerException e){}
+        catch (NullPointerException e){
+            e.printStackTrace();
+        }
 
         Intent i = getIntent();
         String active_user = "Hello, " + i.getStringExtra("username") + "!";
@@ -56,15 +58,15 @@ public class HomeActivity extends AppCompatActivity {
             String username = BuildConfig.USERNAME;
             String apiKey = BuildConfig.APIKEY;
 
-            Client client = VeryfiClientFactory.createClient( clientId, clientSecret, username, apiKey);
-            System.out.println(client);
+//            Client client = VeryfiClientFactory.createClient( clientId, clientSecret, username, apiKey);
+//            System.out.println(client);
 //            VeryfiAPI v = new VeryfiAPI();
 //            System.out.println(v.verifyUser());
 
 
 
-//            imageView.setImageBitmap(image);
-            setContentView(R.layout.activity_receipt);
+            imageView.setImageBitmap(image);
+//            setContentView(R.layout.activity_receipt);
         });
     }
 
@@ -76,6 +78,12 @@ public class HomeActivity extends AppCompatActivity {
     public void handleExpenses(View v) {
         Intent i = new Intent(this, ExpenseMonthly.class);
         startActivity(i);
+    }
+
+    public void handleTemp(View v){
+        Intent i = new Intent(this, ManualTracker.class);
+        startActivity(i);
+
     }
 
     public void saveFile(Bitmap bitmap) {
