@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
 
-        Button button = (Button) findViewById(R.id.button_send);
+        Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(intent);
