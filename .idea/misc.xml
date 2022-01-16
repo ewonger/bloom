@@ -3,26 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< Updated upstream
-        <entry key="..\:/Users/Billy/Desktop/fuck u/bloom/app/src/main/res/layout/activity_camera.xml" value="0.490036231884058" />
-        <entry key="..\:/Users/Billy/Desktop/fuck u/bloom/app/src/main/res/layout/activity_home.xml" value="0.490036231884058" />
-        <entry key="..\:/Users/Billy/Desktop/fuck u/bloom/app/src/main/res/layout/activity_main.xml" value="0.490036231884058" />
-        <entry key="..\:/Users/Billy/Desktop/fuck u/bloom/app/src/main/res/layout/activity_view_expense.xml" value="0.403125" />
-        <entry key="..\:/Users/Billy/Desktop/fuck u/bloom/app/src/main/res/layout/dropdown_month.xml" value="0.403125" />
-        <entry key="..\:/Users/Billy/Desktop/fuck u/bloom/app/src/main/res/layout/fragment_feb.xml" value="0.403125" />
-        <entry key="..\:/Users/Billy/Desktop/fuck u/bloom/app/src/main/res/layout/fragment_mar.xml" value="0.403125" />
-        <entry key="..\:/Users/Eric/Desktop/bloom/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
-=======
-        <entry key="..\:/Users/Meagan/Desktop/nwhacks2022/bloom/app/src/main/res/layout/activity_camera.xml" value="0.30364583333333334" />
-        <entry key="..\:/Users/Meagan/Desktop/nwhacks2022/bloom/app/src/main/res/layout/activity_home.xml" value="0.30364583333333334" />
-        <entry key="..\:/Users/Meagan/Desktop/nwhacks2022/bloom/app/src/main/res/layout/activity_main.xml" value="0.30364583333333334" />
-        <entry key="..\:/Users/Meagan/Desktop/nwhacks2022/bloom/app/src/main/res/layout/activity_manual_tracker.xml" value="0.33" />
-        <entry key="..\:/Users/Meagan/Desktop/nwhacks2022/bloom/app/src/main/res/layout/activity_manual_tracker2.xml" value="0.4642210144927536" />
-        <entry key="..\:/Users/Meagan/Desktop/nwhacks2022/bloom/app/src/main/res/layout/main.xml" value="0.3307291666666667" />
-        <entry key="..\:/Users/Meagan/Desktop/nwhacks2022/bloom/app/src/main/res/layout/strings.xml" value="0.4" />
->>>>>>> Stashed changes
-        <entry key="..\:/Users/chris/AndroidStudioProjects/Bloom/app/src/main/res/layout/activity_home.xml" value="0.33" />
-        <entry key="..\:/Users/chris/AndroidStudioProjects/Bloom/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
