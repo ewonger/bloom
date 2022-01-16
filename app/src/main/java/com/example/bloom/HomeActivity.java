@@ -50,4 +50,9 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void handleTemp(View v){
+        Intent i = new Intent(this, ManualTracker.class);
+        startActivity(i);
+
+    }
 }
