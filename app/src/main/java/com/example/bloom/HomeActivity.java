@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
@@ -18,5 +19,10 @@ public class HomeActivity extends AppCompatActivity {
 
         TextView active_user_tv = findViewById(R.id.active_user_textView);
         active_user_tv.setText(active_user);
+    }
+
+    public void handleTrack(View v){
+        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+        startActivity(intent);
     }
 }
