@@ -11,36 +11,65 @@
         android:layout_width="225dp"
         android:layout_height="57dp"
         android:fontFamily="@font/comfortaa_light"
+        android:onClick="handleTrack"
         android:text="@string/track"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.384" />
+        app:layout_constraintVertical_bias="0.445" />
 
     <Button
         android:id="@+id/view_expenses_button"
         android:layout_width="225dp"
         android:layout_height="57dp"
         android:fontFamily="@font/comfortaa_light"
+        android:onClick="handleExpenses"
         android:text="@string/view_expenses"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/track_button"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintVertical_bias="0.167" />
 
     <TextView
         android:id="@+id/active_user_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/comfortaa_light"
+        android:gravity="center"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/track_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@tools:sample/full_names" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_expenses_button"
+        app:layout_constraintVertical_bias="0.507"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="149dp"
+        android:onClick="handleTemp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_expenses_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
